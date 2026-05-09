@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+body {
+    font-family: 'Comfortaa', sans-serif;
+    background-color: #800080;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+button, .answer-btn {
+    border: none;
+    border-radius: 30px; 
+    padding: 15px 30px;
+    font-family: 'Pangolin', 'Comic Sans MS', cursive;
+    font-weight: bold;
+    color: #4d004d;
+    cursor: pointer;
+    background: linear-gradient(90deg, #c3a6ff 0%, #fff494 100%);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2), 
+                inset 0 -3px 0 rgba(0, 0, 0, 0.1); 
+    transition: all 0.2s ease;
+}
+
+  
+
+#answers-container {
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+   
+}
+
+
+.hide {
+    display: none;
+}
+
+.correct {
+   background: linear-gradient(62deg, #62ff24 0%, #074a03 100%) !important;
+   color: white !important;
+}
+
+.wrong {
+   background: linear-gradient(62deg, #ff2424 0%, #4a0303 100%) !important;
+   color: white !important;
+}
+.screen{
+    text-align: center;
+    font-family: Comfortaa;
+    margin-top: 100px;
+}
+
+.answer-btn {
+     border-radius: 30px; 
+  padding: 10px;
+  font-family: COMIC SANS MS;
+  color: #4d004d;
+background: linear-gradient(90deg, rgba(195, 166, 255, 1) 0%, rgba(255, 244, 148, 1) 100%);
+
+}
+.answer-btn:hover{
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3), 
+}
+
+button {
+  border-radius: 30px; 
+  padding: 10px;
+  font-family: COMIC SANS MS;
+  color: #4d004d;
+background: linear-gradient(90deg, rgba(195, 166, 255, 1) 0%, rgba(255, 244, 148, 1) 100%);
+}
